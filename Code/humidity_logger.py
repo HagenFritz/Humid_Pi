@@ -1,6 +1,6 @@
 import os
 import time
-import Adfruit_DHT
+import Adafruit_DHT
 
 DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 4
