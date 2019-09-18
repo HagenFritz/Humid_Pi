@@ -6,8 +6,8 @@ DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 4
 
 try: 
-	f = open('/home/pi/humidity.csv', 'a+')
-	if os.stat('/home/pi/humidity.csv').st_size == 0:
+	f = open('Data/humidity.csv', 'a+')
+	if os.stat('Data/humidity.csv').st_size == 0:
 		f.write('Date,Time,Temperature,Humidity\r\n')
 except:
 	pass
